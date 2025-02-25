@@ -11,7 +11,7 @@ function AboutCard() {
             from <span className="purple"> Tamil Nadu, India.</span>
             <br />
             <br />I am currently employed as a Technical Consultant at
-            <span className="purple"> Promantia. </span>
+            <span className="purple"> Datamatics. </span>
             <br />
             <br />
             Skilled at creating dynamic and interactive web applications that
