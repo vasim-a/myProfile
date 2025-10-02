@@ -93,6 +93,31 @@ function Projects() {
               description="In the Guardians of Dreams (GOD) project, I am working as a technical lead to develop a mobile app that integrates with ERPNext to streamline initiative tracking and approvals for this NGO. The app facilitates a comprehensive management system for initiatives proposed by Executive Members (EMs) on behalf of Child Care Institutions (CCIs), covering both cost and non-cost elements. EMs can raise initiatives, which undergo a two-stage approval process—estimation and expense approvals—by Guardians of Dreams before funds are disbursed. Approved funds are transferred to the CCI accounts, enabling them to pay vendors directly. Additionally, the app allows for the uploading of invoices and images as proof of expenses, leading to final reconciliation based on the approved and actual amounts spent. This initiative aims to bring efficiency, accountability, and transparency to the process, ensuring that resources are utilized effectively for the benefit of CCIs."
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sco}
+              title="Flexbumin"
+              platform="AEM"
+              description="Takeda project is a web-based initiative built on Adobe Experience Manager (AEM), leveraging the WHONE CSS library to ensure a consistent, scalable, and high-performing user interface. AEM’s robust content management capabilities allow for seamless integration of WHONE’s pre-defined styles, reusable components, and responsive design principles, ensuring a cohesive digital experience across all devices. This combination enhances development efficiency while maintaining strict adherence to Takeda’s global branding and accessibility standards. As a leading pharmaceutical company, Takeda requires a digital platform that is both visually polished and functionally reliable—qualities achieved through AEM’s modular architecture and WHONE CSS’s optimized theming system. Together, they deliver a fast, maintainable, and user-friendly web presence that aligns with Takeda’s commitment to precision and innovation. Let me know if you'd like deeper insights into the AEM implementation or styling st CCIs."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={god}
+              title="Gammagard"
+              platform="AEM"
+              description="The Gammagard PDF layout project was built using plain HTML and CSS for print-optimized rendering.  Page size was fixed at 816px × 1056px using inch-to-pixel conversion for accurate formatting.  Used traditional CSS techniques like box model, margin, padding, and positioning for layout control.  Avoided Flexbox and Grid to maintain full control over static alignment for PDF consistency.  Focused on clean structure, print reliability, and cross-browser compatibility without external dependencies."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={creditNote}
+              title="Oveporexton & Oveporexton-HCP"
+              platform="AEM"
+              description="Takeda project is a web-based initiative built on Adobe Experience Manager (AEM), leveraging the WHONE CSS library to ensure a consistent, scalable, and high-performing user interface. AEM’s robust content management capabilities allow for seamless integration of WHONE’s pre-defined styles, reusable components, and responsive design principles, ensuring a cohesive digital experience across all devices. This combination enhances development efficiency while maintaining strict adherence to Takeda’s global branding and accessibility standards. As a leading pharmaceutical company, Takeda requires a digital platform that is both visually polished and functionally reliable—qualities achieved through AEM’s modular architecture and WHONE CSS’s optimized theming system. Together, they deliver a fast, maintainable, and user-friendly web presence that aligns with Takeda’s commitment to precision and innovation. Let me know if you'd like deeper insights into the AEM implementation."
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>

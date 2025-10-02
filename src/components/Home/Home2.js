@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
@@ -22,14 +21,14 @@ function Home2() {
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I Am a <b className="purple">Front-End Developer</b>{" "}
+              <br />I Am a <b className="purple">Front End Developer</b>{" "}
               passionate about creating seamless user interfaces that integrate
               smoothly with backend APIs.
               <br />
               <br />I possess a strong command of essential front-end
               technologies like{" "}
               <b className="purple">
-                React.js, Angular.js, Vue -3, JavaScript, TypeScript, Bootstrap,
+                MEAN, MERN, React.js, AngularJS, Vue 3, JavaScript, TypeScript, Redux, Node.js, Express.js, MongoDB, Bootstrap,
                 CSS, and HTML{" "}
               </b>{" "}
               at latest versions/updates.

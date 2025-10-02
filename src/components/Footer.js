@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
@@ -43,7 +42,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/vasim-khan-a-192871225/"
+                href="https://www.linkedin.com/in/vasim-khan-192871225/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
