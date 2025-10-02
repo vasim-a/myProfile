@@ -10,6 +10,8 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
+import { CgFileDocument } from "react-icons/cg";
+
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -75,6 +77,17 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
+
+            <Nav.Item className="d-none d-md-block">
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
 
             {/* Git Repo Link */}
             {/* <Nav.Item className="fork-btn">
